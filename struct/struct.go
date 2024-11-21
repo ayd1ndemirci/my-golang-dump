@@ -7,7 +7,7 @@ import (
 type Info struct {
 	name string
 	surname string
-	age int
+	age int8
 	money float32
 }
 
@@ -17,7 +17,7 @@ func main() {
 
 	info1.name = "Aydın"
 	info1.surname = "Demirci"
-	info1.age = 17
+	info1.age = 124
 	info1.money = 12.3
 
 	info2.name = "John"
